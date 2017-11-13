@@ -1,0 +1,63 @@
+div#main_div {
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 10px;
+
+	min-width: 800px;
+	min-height: 400px;
+}
+
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	background-color: #33a6cc;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+	border-right: 1px solid #bbb;
+
+}
+
+li:hover {
+	background-color: #3380cc
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+	padding: 14px 18px;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+}
+
+li#login{
+	float: right;
+	border-right: none;
+	margin-right: 20px;
+}
+
+div.post {
+	width: 700px;
+	height: 75px;
+	margin-bottom: 15px;
+}
+
+div.post:hover{
+	background-color: #cdd0d6;
+}
+
+p {
+	font-size: 12px;
+}
+
+textarea {
+	margin-bottom: 5px;
+}
+
+input {
+	margin-bottom: 10px;
+}
